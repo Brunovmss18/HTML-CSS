@@ -29,6 +29,32 @@ main {
     padding: 300px;
 }
 
+div#img1 {
+    background-image: url('../imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100vh;
+    width: 1366px;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+}
+
+p#textoDentroDaImagem {
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 500px;
+    width: 400px;
+    font-size: 47px;
+    color: white;
+}
+
 footer {
     background-color: black;
 }
