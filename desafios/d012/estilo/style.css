@@ -36,7 +36,7 @@ div#img1 {
     background-size: 100% 100%;
     position: absolute;
     height: 100vh;
-    width: 1366px;
+    width: 1349.9px;
 
     left: 50%;
     top: 50%;
@@ -46,8 +46,7 @@ div#img1 {
 }
 
 p#textoDentroDaImagem {
-    padding-left: 50px;
-    padding-top: 50px;
+    padding: 50px;
     background-color: rgba(0, 0, 0, 0.281);
     height: 500px;
     width: 400px;
