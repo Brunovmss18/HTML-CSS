@@ -7,6 +7,9 @@ padding: 0px;
 
 body {
     background-color: white;
+    height: 96vh;
+    position: relative;
+    background-size: 100%;
 }
 
 header {
@@ -25,24 +28,23 @@ header > p {
 }
 
 main {
-    text-align: left;
-    padding: 300px;
+    padding: 700px;
 }
 
 div#img1 {
     background-image: url('../imagens/background001.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100%;
     position: absolute;
-    height: 100vh;
+    height: 768px;
     width: 1349.9px;
 
     left: 50%;
     top: 50%;
 
     transform: translate(-50%, -50%);
-    margin-top: 10%;
+    margin-top: 60%;
 }
 
 p#textoDentroDaImagem {
