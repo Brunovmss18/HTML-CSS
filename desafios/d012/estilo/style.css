@@ -6,62 +6,57 @@ padding: 0px;
 }
 
 body {
-    background-color: white;
-    height: 96vh;
-    position: relative;
-    background-size: 100%;
+
 }
 
 header {
-    background-color: black;
-    text-align: center;
+
 }
 
 header > h1 {
-    color: white;
-    font-weight: bold; 
+
 }
 
 header > p {
-    color: white;
-    font-weight: normal;
+
 }
 
-main {
-    padding: 700px;
-}
-
-div#img1 {
+div#container1 {
     background-image: url('../imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    position: absolute;
-    height: 768px;
-    width: 1349.9px;
+    background-size: 100% 100%;
+    position: relative;
+    height: 100vh;
+    padding: 10px;
+}
 
+div#container2 {
+
+}
+
+div#conteudo {
+    position: absolute;
+    left: 10px;
+}
+
+p#text1 {
+    margin: auto;
+    color:;
+    font-size: 47px;
+    font-weight:bold ;
+    height: 200px;
+    width: 400px;
     left: 50%;
     top: 50%;
-
     transform: translate(-50%, -50%);
-    margin-top: 60%;
-}
+    background-color: rgba(0, 0, 0, 0.205);
 
-p#textoDentroDaImagem {
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.281);
-    height: 500px;
-    width: 400px;
-    font-size: 47px;
-    color: white;
 }
 
 footer {
-    background-color: black;
+
 }
 
 footer > p {
-    color: white;
-    text-align: center;
+
 }
- 
+
